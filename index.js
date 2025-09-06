@@ -13,7 +13,7 @@ app.get("/",(req,res)=>{
 })
 
 app.post("/car",(req,res)=>{
-    res.send("This is post route for car")
+    res.send("This is post route ")
 })
 app.listen(port,()=>{
     console.log("App chal rha hai hamara port pe ")
