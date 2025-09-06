@@ -9,7 +9,7 @@ app.use(express.json());
 
 //get request
 app.get("/",(req,res)=>{
-    res.send("<h1>This is Heading</h1>") 
+    res.send("<h1>This is a Heading</h1>") 
 })
 
 app.post("/car",(req,res)=>{
